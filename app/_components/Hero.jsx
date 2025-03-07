@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import Authentication from './Authentication'
+import Link from 'next/link'
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
         <div className='flex flex-row items-center justify-center gap-5'>
           <Button className='h-15 w-40 text-xl rounded-2xl cursor-pointer bg-red-600 text-white hover:bg-red-700'>Explore</Button>
           <Authentication>
-              <Button className='h-15 w-40 text-xl rounded-2xl cursor-pointer'>Get Started</Button>
+              <Link href='/dashboard'> <Button className='h-15 w-40 text-xl rounded-2xl cursor-pointer'>Get Started</Button> </Link>
           </Authentication>
         </div>
         
