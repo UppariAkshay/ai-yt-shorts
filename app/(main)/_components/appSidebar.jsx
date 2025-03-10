@@ -11,7 +11,7 @@ import {
   SidebarMenuButton
 } from "@/components/ui/sidebar"
 import Image from "next/image"
-import { Button } from "./button"
+import { Button } from "../../../components/ui/button"
 import { HomeIcon, SearchCheckIcon, StarIcon, VideoIcon, Wallet } from "lucide-react"
 import { useAuthContext } from "@/app/provider"
 
